@@ -11,7 +11,6 @@ function App() {
     setName(inputRef.current.value);
     setLoggedIn(true);
   };
-
   return (
     <div>
       {loggedIn ? (
