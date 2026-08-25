@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       {loggedIn ? (
-        <h1>Welcome {name}</h1>
+        <h1>Welcome Student {name}</h1>
       ) : (
         <>
           <input
